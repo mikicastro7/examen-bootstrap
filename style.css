@@ -2,14 +2,10 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: #00b02c;
-    height: 200px;
-}
-
 nav ul li {
     text-align: center;
     background-color: aqua;
+    padding: 20px;
 }
 
 .indice {
@@ -24,4 +20,16 @@ nav ul li {
 
 nav ul {
     margin-bottom: 0;
+    height: 100px;
+    background-color: #00b02c;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
 }
